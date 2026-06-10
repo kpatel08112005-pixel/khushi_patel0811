@@ -1,0 +1,9 @@
+body{
+    background-attachment: hsl(0, 2%, 33%);
+    color: #1c0f0f;
+}
+
+h2{
+    background-color: lch(55.24% 54.91 306.7);
+    color: hsl(0, 9%, 85%);
+}

@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #161515;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-border{
+    background:#a7a1a1;
+    padding: 2px;
+}
+
+.button{
+    border: none;
+    background: #b14545;
+    color: rgb(208, 213, 213);
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-image: fill;
+}
+
+.button-border:hover{
+    background: #4c4646;
+}
+
+.button-border:hover.button{
+    color: #fff;
+    padding: 2px;
+}

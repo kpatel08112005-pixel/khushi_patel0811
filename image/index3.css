@@ -1,0 +1,81 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #5a2525;
+}
+
+p, h3{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.card, img{
+    border-radius: 10px;
+}
+
+.card{
+    max-width:300px;
+    background: #aca2a2;
+    margin: auto;
+    padding: 1em;
+}
+
+.card-thumnail img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    margin-top: 1em;
+}
+
+.card-avtar img{
+    height: 50px;
+    width: 50px;
+    margin-top: 0.1em;
+}
+
+.card-details{
+    line-height: 1.5;
+}
+
+.card-details h3{
+    font-size: 1rem;;
+    font-weight: 900;
+    margin: 0.3em;
+}
+
+.card-details p{
+    font-size: .85rem;
+    color: black;
+     margin: 0.3em;
+}
+
+.card-stats{
+    display: none;
+    padding-bottom: .5em;
+}
+.card-stats li{
+    background: #a17474;
+    margin-right: .5em;
+    padding: .25em .5em;
+    border-radius: 5px;
+}
+
+.card:hover .card-stats{
+    display: flex;
+}
+
+.card.card:hover{
+    padding-bottom: 0;
+}

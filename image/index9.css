@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #d3cbcb;
+}
+
+ .flage-germany{
+    height: 150px;
+    width: calc(150px * 5/3);
+    background: #352d2d;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .stripe{
+    flex-grow: 1;
+ }
+ .back{
+    background: #000;
+ }
+
+ .red{
+    background: red;
+ }
+
+ .yellow{
+    background: yellow;
+ }

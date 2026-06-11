@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 1.5em;
+    width: 1.5em;
+    background: #000;
+    margin: .5em;
+    border-radius: 50%;
+    animation: pluse  infinite alternate 1s;
+}
+
+@keyframes pluse{
+    from{
+        background: #9c8e8e;
+    }
+    to{
+        background: #c64b4b;
+        height: 1.6em;
+        width: 1.6em;
+    }
+}

@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.progress-bar{
+    height: 40px;
+    background: lightgray;
+    border-radius: 20px;
+}
+
+.prog-status{
+    height: 40px;
+    background: purple;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.stage-1{
+    width: 25%;
+    background:green;
+}
+
+.stage-2{
+    width: 50%;
+    background: red;
+}
+
+.stage-3{
+    width: 75%;
+    background: yellow;
+}
+
+.stage-4{
+    width: 100%;
+    background: lightgreen;
+}

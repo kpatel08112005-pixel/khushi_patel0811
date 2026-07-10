@@ -1,0 +1,25 @@
+body{
+    background: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#letters{
+    display: flex;
+    gap: 10px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background: blue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}

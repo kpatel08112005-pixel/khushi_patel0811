@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ul{
+    padding-left: 5px;
+    list-style-type: none;
+}
+.graph{
+    display: grid;
+    grid-template-columns: repeat(52, 1fr);
+    background: black;
+    padding: 1;
+}
+
+.square{
+    height: 10px;
+    width: 10px;
+   background: #161b22;
+   border-radius: 2px;
+   margin-right: 0;
+   margin: 3px;
+    background: gray;
+}
+
+[data-value="3"]{
+    background-color: darkblue;
+}
+
+[data-value="5"]{
+    background-color: blue;
+}
+
+[data-value="10"]{
+    background-color: lightblue;
+}
